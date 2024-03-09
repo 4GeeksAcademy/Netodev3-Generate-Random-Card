@@ -1,1 +1,50 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #0e7e12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  text-align: center;
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-suit {
+  align-self: flex-start;
+  font-size: 100px;
+  top: 20px;
+  left: 20px;
+}
+
+.bottom-suit {
+  align-self: flex-end;
+  font-size: 100px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.number {
+  font-size: 100px;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
